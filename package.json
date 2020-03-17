@@ -1,7 +1,7 @@
 {
 	"name": "@mmstudio/an000028",
 	"version": "1.0.0",
-	"description": "",
+	"description": "微信-小程序用户基本信息",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
 		"watch": "tsc -w & ava --watch ./tests/*.js",
@@ -38,8 +38,13 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"@mmstudio/an000022": "^1.0.202003171131",
+		"node-fetch": "^2.6.0"
+	},
 	"devDependencies": {
+		"@mmstudio/config": "^1.0.202003171037",
+		"@types/node-fetch": "^2.5.5",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
@@ -48,5 +53,8 @@
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
 		"typescript": "next"
+	},
+	"peerDependencies": {
+		"@mmstudio/config": "^1.0.202003171037"
 	}
 }
