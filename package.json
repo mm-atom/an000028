@@ -1,5 +1,5 @@
 {
-	"name": "@mmstudio/atom",
+	"name": "@mmstudio/an000028",
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
@@ -8,12 +8,11 @@
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile",
-		"up": "git pull git@gitee.com:mmstudio/base.git atom-nodejs"
+		"build": "npm run clean && npm run lint && npm run compile"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mm-tpl/atom-nodejs"
+		"url": "https://github.com/mm-atom/an000028"
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -29,7 +28,8 @@
 		"框架"
 	],
 	"author": {
-		"name": ""
+		"name": "taoqf",
+		"email": "tao_qiufeng@126.com"
 	},
 	"maintainers": [
 		{
