@@ -39,12 +39,12 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/an000022": "^1.0.202003171131",
+		"@mmstudio/an000022": "^1.0.202004170809",
 		"node-fetch": "^2.6.0"
 	},
 	"devDependencies": {
-		"@mmstudio/config": "^1.0.202003171037",
-		"@types/node-fetch": "^2.5.5",
+		"@mmstudio/config": "^1.0.202004161715",
+		"@types/node-fetch": "^2.5.6",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
@@ -55,6 +55,6 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"@mmstudio/config": "^1.0.202003171037"
+		"@mmstudio/config": "^1.0.202004161715"
 	}
 }
